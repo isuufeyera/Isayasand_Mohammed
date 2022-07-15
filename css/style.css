@@ -1,0 +1,52 @@
+#main-doc{
+    padding-top: 30px;
+}
+
+header{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+code{
+    padding: 5px;
+    padding-right: 100px;
+    color: white;
+    background-color: grey;
+    font-style: italic;
+}
+
+#navbar{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    background-color: grey;
+    color: white;
+}
+
+#navbar header{
+    padding: 20px;
+}
+
+#navbar a{
+    display: block;
+    padding-left: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.main-section{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+#main-doc{
+    margin-left: 25%;
+}
+
+@media screen and (max-height: 600px) {
+    #navbar {width: 10%;}
+    #navbar a {font-size: 15px;}
+  }
